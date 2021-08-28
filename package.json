@@ -1,0 +1,16 @@
+{
+  "name": "-ES6_Curso_DevNinja",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/abreuroberto2015/-ES6_Curso_DevNinja.git",
+  "author": "Roberto Abreu <abreuroberto2015@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/cli": "^7.14.8",
+    "@babel/core": "^7.15.0",
+    "@babel/preset-env": "^7.15.0"
+  },
+  "scripts": {
+    "dev": "babel ./main.js -o bundle.js -w"
+  }
+}
